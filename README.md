@@ -6,6 +6,8 @@ This project looked at two separate NLP problems:
  - Clustering texts with unknown labels,
  - Selecting most relevant words for each label from texts with known labels.
 
+This project was completed using Python, Jupyter Notebook, scikit-learn, pandas, numpy, matplotlib, seaborn.
+
 The texts in the project had labels that split them into distinct groups. It was clearly shown that it was possible to represent texts via TF or TF-IDF, reduce dimensionality via T-distributed Stochastic Neighbor Embedding and use a clustering algorithm to produce good clusters that aligned with the actual text labels (see below).
 ![Clustering visualization](https://github.com/vectorkoz/my-nlp/blob/main/topic-extraction-text-clustering/data/clustering_TF-IDF%20%2B%20TSNE%20%2B%20GMM%20Three%20FOX%20categories.png?raw=true)
 
